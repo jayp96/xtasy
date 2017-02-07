@@ -395,7 +395,7 @@ h2 {
   background-color: #33888F;
   background-image: url("../images/performar-bg.jpg");
   background-position: 50% 0;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -455,6 +455,76 @@ h2 {
 .even-control-right {
   right: 0;
 }
+
+
+ /*************************
+*******THROWBACK CSS******
+**************************/
+#throwback {
+  background-color: /*rgba(0,110,155,0.9); */#1881a2;
+  background-image: url("../images/sponsor-bg.jpg");
+  background-position: 50% 0;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.guitar {
+  position: absolute;
+  right:0;
+  top: 0
+}
+
+
+#throwback h2 {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.single-event {
+  margin-bottom: 70px;
+}
+
+.single-event h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+
+.single-event h5 {
+  font-size: 18px;
+  font-weight: 100;
+  display: block;
+}
+
+#throwback-carousel {
+  position: relative;
+}
+
+.even-control-left, 
+.even-control-right {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  top: 0;
+}
+
+.even-control-left {
+  right: 3%
+} 
+
+.even-control-right {
+  right: 0;
+}
+
 
 
 /*************************
@@ -756,5 +826,4 @@ h2 {
 #footer a:hover {
   color:#1B7B98
 }
-
 

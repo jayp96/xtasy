@@ -47,7 +47,7 @@
     left: -15%;
   }
 
-  #event .col-md-9 {
+  #throwback,#event .col-md-9 {
     z-index: 10;
   }
 
@@ -382,7 +382,7 @@
     padding: 70px 30px 110px;
   }
 
-  #event h2, 
+  #event h2,#throwback h2, 
   #about h2, 
   #sponsor h2 {
     font-size: 30px;
